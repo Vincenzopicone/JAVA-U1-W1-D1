@@ -36,10 +36,12 @@ public static void main (String[] args)
 		
 		System.out.println("Esercizio 4.1: "+ perimetroRettangolo(6, 5));
 		System.out.println(pariDispari(7));
-		System.out.println(perimetroTriangolo(3,52, 4));
+		System.out.println(perimetroTriangolo(3,52, 4,64, 8));
 		
 		};
 		
+
+
 
 public static int prodotto (int x, int  y) 
 {
