@@ -1,0 +1,21 @@
+package it.epicode.be;
+
+public class Helloworld {
+
+public static void main (String[] args)
+		{
+		// Stampa a console  la frase
+		System.out.println("This is my first Epicode Java Project!");
+		System.out.println("Esercizio 1: " +  prodotto(6, 5));
+		};
+
+public static int prodotto (int x, int  y) 
+{
+	return x * y;
+
+};
+
+}
+
+
+

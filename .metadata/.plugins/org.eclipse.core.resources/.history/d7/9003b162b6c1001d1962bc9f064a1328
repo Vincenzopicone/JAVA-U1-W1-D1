@@ -1,0 +1,36 @@
+package it.epicode.be;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Helloworld {
+
+public static void main (String[] args)
+		{
+		System.out.println("This is my first Epicode Java Project!");
+		System.out.println("Esercizio 2.1: " +  prodotto(6, 5));
+		System.out.println("Esercizio 2.2: " +  concatena("Batti il ", 5));		
+		
+		String arrayStringhe [] = {"Ciao", "mi", "chiamo", "Vincenzo", "Picone"};
+		System.out.println("Esercizio 2.3.1: " + Arrays.toString(arrayStringhe)  );		
+		
+		
+		};
+
+
+public static int prodotto (int x, int  y) 
+{
+	return x * y;
+};
+
+public static String concatena (String S, int n) 
+{
+	
+	return (String) S + n ;
+};
+
+
+
+}
+
+
+
